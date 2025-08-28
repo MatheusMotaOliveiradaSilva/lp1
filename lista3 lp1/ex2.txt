@@ -1,0 +1,7 @@
+-Espero que dê erro, pois a subtração ocorreu entre duas variáveis de dois tipos diferentes.
+
+-Os tiṕos são int e char.
+
+-A mensagem foi: "invalid operands to binary - (have ‘int’ and ‘char *’)". O código não conseguiu ser executado pois havia uma
+variável que não é compatível com a operação da subtração, nesse caso, o char. Mesmo 10 sendo um número, as aspas o caracterizam 
+como uma variável do tipo char.
