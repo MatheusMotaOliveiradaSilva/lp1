@@ -1,0 +1,7 @@
+- Um tipo de dado é a "natureza" ou "classificação" de um dado, se é um número (int, float), texto (string), booleano, etc. Além disso, também especifica o conjunto de valores possíveis e as operações válidas sobre esses valores.
+
+-Os tipos tem diversas funções, como:
+Recusar operações inválidas, evitando operações sem sentido, reduzindo erros;
+Documentar o código, comunicando a intenção e as ideias do programador sobre como os dados serão utilizados;
+Especializar por tamanho, possibilitando o controle de faixas e armazenamento na memória;
+Desempenho, possibilitando a otimização da compilação e uso eficiente de memória.
