@@ -6,7 +6,7 @@ int main(void) {
     int i, controle, soma = 0;
     double media;
 
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 50; i++) {
         controle = 0;
 
         while (controle == 0) {
@@ -45,4 +45,5 @@ int main(void) {
     printf("\n");
 
     return 0;
+
 }
