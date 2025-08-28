@@ -1,0 +1,8 @@
+A tipagem estática é aquela em que o programador precisa declarar explicitamente o tipo de cada variável (int, bool, etc), sendo considerado mais "computacional". A checagem dos tipos é feita antes da execução do código, geralmente durante a compilação. Já na tipagem dinâmica o tipo de uma variável é determinado em tempo de execução do código, de acordo com o valor atribuído a ela. Dessa forma, a mesma variável pode assumir diferentes tipos durante a execução do código.
+
+-Exemplo de linguagens com tipagem estática: C, C++, Java, Go e Rust.
+Exemplos de linguagens com tipagem dinâmica: JavaScript, Python, PHP e Ruby.
+
+- As linguagens estáticas são geralmente mais rápidas que as dinâmicas porque a verificação dos tipos acontece na compilação, assim, quando o código é executado, ele já executar diretamente com as instruções já otimizadas para os tipos selecionados, sem a necessidade de verificar os tipos diversas vezes.
+
+Por exemplo, em C , ao chamar uma função como soma (int a int b), o compilador já sabe que "a" e "b" são inteiros. Ele gera código de máquina direto para soma de inteiros, sem precisar de verificações adicionais em tempo de execução. Já em Python, ao chamar uma função como (def soma(a, b): return a+b), o interpretador só descobre em tempo de execução quais são os tipos de a e b. Ele precisa checar se são números, strings, e dependendo disso, vai tomar sua decisão, de somar valores, juntar strings, etc. Esse trabalho extra torna a execução mais lenta.
