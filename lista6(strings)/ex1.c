@@ -4,7 +4,6 @@ int tamanho(char* str) {
 	int tam = 0; 
 	int i = 0;
 	printf("digite uma palavra (string)\n");
-	//gets(&str);
 	scanf("%s", str);
 	while (str[i] != 0) {
 		i++;
