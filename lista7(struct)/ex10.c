@@ -1,9 +1,3 @@
-/* q10_mapa.c
-   Gera 10 personagens automaticamente com pos e score aleatórios 1..10,
-   usando uma função que gera posição (modelo pedido: função de posição + função de personagem).
-   Desenha um mapa 10x10.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -99,3 +93,4 @@ void main(void) {
     printf("Mapa resultante (linhas/colunas exibidas 1..10):\n");
     desenha_mapa(pcs, 10);
 }
+
