@@ -1,0 +1,3 @@
+A 'A' é mais direta, já que ela cria um personagem novo e em seguida retorna ele. Já a 'B' recebe um ponteriro para um personagem que já existe e preenche seus campos. 
+Na minha opiniâo, o modela da função 'A' é mais trivial para se compreender e realizar o preenchimento da struct.
+Pelo o que eu pesquisei, nestes exemplos, o A e o B não teriam muita diferença em velocidade ou memória por se tratar de um exemplo peuqueno. Porém, em tarefas mais complexas, o B pode ser mais eficaz pois o uso do ponteiro é mais eficaz por não precisar copiar o conteúdo da struct para a função.
