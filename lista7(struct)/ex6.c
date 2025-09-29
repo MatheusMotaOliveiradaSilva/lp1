@@ -17,7 +17,7 @@ void exibeJogador(struct Jogador j) {
     printf("\n");
 }
 
-int main(void) {
+void main(void) {
     struct Jogador arrascaeta = {"Arrascaeta", 85, 82, 55, 86};
     struct Jogador jorginho  = {"Jorginho", 84, 74, 85, 73};
     struct Jogador saul      = {"Saul", 80, 78, 77, 82};
@@ -25,6 +25,5 @@ int main(void) {
     exibeJogador(arrascaeta);
     exibeJogador(jorginho);
     exibeJogador(saul);
-
-    return 0;
 }
+
