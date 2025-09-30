@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-// Definindo constantes para as dimensões
 #define L 3
 #define C 3
 
@@ -44,4 +43,5 @@ int main(void) {
     printf("\nMedia dos elementos: %.2f\n", resultado);
     
     return 0;
+
 }
