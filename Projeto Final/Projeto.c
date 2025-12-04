@@ -587,7 +587,7 @@ int exportar_listagem(const char *nome_saida) {
 void menu(void) {
     int opcao = -1;
     while (opcao != 0) {
-        printf("\n=== SISTEMA DE FUNCIONARIOS ===\n");
+        printf("\n=== RH EMPRESA ===\n");
         printf("1. Cadastrar funcionario\n");
         printf("2. Buscar funcionario\n");
         printf("3. Editar funcionario\n");
